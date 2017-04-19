@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AdobeMobileObjC_Example' do
+  pod 'AdobeMobileObjC', :path => '../'
+
+  target 'AdobeMobileObjC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
