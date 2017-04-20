@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004D455DEE07E2F9037CE6127E283091 /* Pods-AdobeMobileObjC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C61E17DCB18AD93ACBEE28353079D521 /* Pods-AdobeMobileObjC_Tests-dummy.m */; };
+		05721951B81A9A636A63A31A1EF9AB0C /* AdobeMobileObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1FCF2A52C8ACF7731448EA59A4C2E4 /* AdobeMobileObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B7C15CB98A2F78F27079D8B39272BC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4CC026B5FEB1D4FFE0821B2869B85535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		92A12F7497EB1DDD84C2331A11F6EA7D /* Pods-AdobeMobileObjC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB2D014ECAB807CEC3E3CE5511871E /* Pods-AdobeMobileObjC_Example-dummy.m */; };
+		95B4799AA618E15E120FF55EB7A7B435 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DE8B557B1EA7AB5B00D70A26 /* ADBMobile.h in Headers */ = {isa = PBXBuildFile; fileRef = DE8B55781EA7AB5B00D70A26 /* ADBMobile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DED9FDD81EA8DA8900ED360C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED9FDD71EA8DA8900ED360C /* SystemConfiguration.framework */; };
+		DED9FDDA1EA8DA9000ED360C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED9FDD91EA8DA9000ED360C /* UIKit.framework */; };
+		E273B44A4DC520225F1A8427A4F2D4B9 /* Pods-AdobeMobileObjC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31623E1BBDCCC7D7210652C86B71BF6E /* Pods-AdobeMobileObjC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB71EF6841C6944469061741DACF4E3F /* Pods-AdobeMobileObjC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 996F99E663BC7F924E1FECF6E80CC53E /* Pods-AdobeMobileObjC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDBF06B8EF0C4CF21F639A055AD50E0 /* AdobeMobileObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1DB3C00AEFDB9A21AC72967F08DF6C /* AdobeMobileObjC-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CB6EC63AB2C422280F635E42BD1DA36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C839923CCC7A25DF7AC2BEEE909E4679;
+			remoteInfo = AdobeMobileObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		083180AF1F6214AB7D2A5FFD3F0A1909 /* AdobeMobileObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdobeMobileObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08F719F8CBEA8D9B908F7412FB946A29 /* Pods-AdobeMobileObjC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdobeMobileObjC_Example-resources.sh"; sourceTree = "<group>"; };
+		0DB1620415B36A041A3DC5BEE4E4C846 /* Pods-AdobeMobileObjC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdobeMobileObjC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25DA0D988F24ED9D2EDDD8866CC83802 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26CC6A64CCA2AE3A368D008B8E270D1E /* Pods-AdobeMobileObjC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdobeMobileObjC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		31623E1BBDCCC7D7210652C86B71BF6E /* Pods-AdobeMobileObjC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdobeMobileObjC_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3A1FCF2A52C8ACF7731448EA59A4C2E4 /* AdobeMobileObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdobeMobileObjC-umbrella.h"; sourceTree = "<group>"; };
+		48CAADC0068BEFFC7414FE36ABD4D43B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BDFEBED67C0391D2EEB60D484A57B26 /* Pods-AdobeMobileObjC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AdobeMobileObjC_Tests.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6607F3CCF855CF943647FBC811A921E8 /* Pods-AdobeMobileObjC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdobeMobileObjC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7723891E6B00D58D1403EC714CC01894 /* Pods-AdobeMobileObjC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdobeMobileObjC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A59B2F1069855485AC3B1F0A519C4B1 /* AdobeMobileObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AdobeMobileObjC.modulemap; sourceTree = "<group>"; };
+		86869548E033C60798297952D0A8CF0F /* Pods-AdobeMobileObjC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdobeMobileObjC_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		996F99E663BC7F924E1FECF6E80CC53E /* Pods-AdobeMobileObjC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdobeMobileObjC_Example-umbrella.h"; sourceTree = "<group>"; };
+		997D557723FE76AE819E89F5D714D015 /* AdobeMobileObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdobeMobileObjC-prefix.pch"; sourceTree = "<group>"; };
+		A9ABDDC258507627FE6AEF066B502A49 /* Pods-AdobeMobileObjC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AdobeMobileObjC_Example.modulemap"; sourceTree = "<group>"; };
+		B18BA50D6C43F07401F6BE6C2CA5A39C /* AdobeMobileObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdobeMobileObjC.xcconfig; sourceTree = "<group>"; };
+		B2D24C9EC77B31CB2F83FA78D51B60D9 /* Pods_AdobeMobileObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdobeMobileObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9513A8BEC054FF8BFE99775DEDF88BD /* Pods-AdobeMobileObjC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdobeMobileObjC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C41E98573151606FD39172F97A2782F2 /* Pods-AdobeMobileObjC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdobeMobileObjC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C4EB2D014ECAB807CEC3E3CE5511871E /* Pods-AdobeMobileObjC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdobeMobileObjC_Example-dummy.m"; sourceTree = "<group>"; };
+		C54AC35E754085340E396DFC5580BED1 /* Pods_AdobeMobileObjC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdobeMobileObjC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61E17DCB18AD93ACBEE28353079D521 /* Pods-AdobeMobileObjC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdobeMobileObjC_Tests-dummy.m"; sourceTree = "<group>"; };
+		C8835B03768BB29E41F3187C4544CE36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1DB3C00AEFDB9A21AC72967F08DF6C /* AdobeMobileObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AdobeMobileObjC-dummy.m"; sourceTree = "<group>"; };
+		CE0123349AF3EEC306F3C4068CC98BA8 /* Pods-AdobeMobileObjC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdobeMobileObjC_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D2B133590642984A45B2CAC9E24663FA /* Pods-AdobeMobileObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdobeMobileObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D4348FCBEB4F1EA480FDD7BDBD3F247A /* Pods-AdobeMobileObjC_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdobeMobileObjC_Tests-resources.sh"; sourceTree = "<group>"; };
+		D4ADA6D4D6B62AC83CCE4616B134F9FD /* Pods-AdobeMobileObjC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdobeMobileObjC_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DE8B55781EA7AB5B00D70A26 /* ADBMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBMobile.h; sourceTree = "<group>"; };
+		DE8B557A1EA7AB5B00D70A26 /* AdobeMobileLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AdobeMobileLibrary.a; sourceTree = "<group>"; };
+		DED9FDD71EA8DA8900ED360C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		DED9FDD91EA8DA9000ED360C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		156E1E1BE30211E4F8DAB87E12D2AB18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED9FDDA1EA8DA9000ED360C /* UIKit.framework in Frameworks */,
+				DED9FDD81EA8DA8900ED360C /* SystemConfiguration.framework in Frameworks */,
+				95B4799AA618E15E120FF55EB7A7B435 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33247F21345653A7A4EDE84351703E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC026B5FEB1D4FFE0821B2869B85535 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512F91A21CE9B23CD1573A415459EE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7C15CB98A2F78F27079D8B39272BC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CDBE48DACFDFC015789FC1450456842 /* Pods-AdobeMobileObjC_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C8835B03768BB29E41F3187C4544CE36 /* Info.plist */,
+				A9ABDDC258507627FE6AEF066B502A49 /* Pods-AdobeMobileObjC_Example.modulemap */,
+				0DB1620415B36A041A3DC5BEE4E4C846 /* Pods-AdobeMobileObjC_Example-acknowledgements.markdown */,
+				26CC6A64CCA2AE3A368D008B8E270D1E /* Pods-AdobeMobileObjC_Example-acknowledgements.plist */,
+				C4EB2D014ECAB807CEC3E3CE5511871E /* Pods-AdobeMobileObjC_Example-dummy.m */,
+				D4ADA6D4D6B62AC83CCE4616B134F9FD /* Pods-AdobeMobileObjC_Example-frameworks.sh */,
+				08F719F8CBEA8D9B908F7412FB946A29 /* Pods-AdobeMobileObjC_Example-resources.sh */,
+				996F99E663BC7F924E1FECF6E80CC53E /* Pods-AdobeMobileObjC_Example-umbrella.h */,
+				C41E98573151606FD39172F97A2782F2 /* Pods-AdobeMobileObjC_Example.debug.xcconfig */,
+				D2B133590642984A45B2CAC9E24663FA /* Pods-AdobeMobileObjC_Example.release.xcconfig */,
+			);
+			name = "Pods-AdobeMobileObjC_Example";
+			path = "Target Support Files/Pods-AdobeMobileObjC_Example";
+			sourceTree = "<group>";
+		};
+		52F7BDA907C5EB1EEA9A95D6D7A91B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				083180AF1F6214AB7D2A5FFD3F0A1909 /* AdobeMobileObjC.framework */,
+				B2D24C9EC77B31CB2F83FA78D51B60D9 /* Pods_AdobeMobileObjC_Example.framework */,
+				C54AC35E754085340E396DFC5580BED1 /* Pods_AdobeMobileObjC_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5747DF0F841FBB919170459EEFEE332F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A59B2F1069855485AC3B1F0A519C4B1 /* AdobeMobileObjC.modulemap */,
+				B18BA50D6C43F07401F6BE6C2CA5A39C /* AdobeMobileObjC.xcconfig */,
+				CD1DB3C00AEFDB9A21AC72967F08DF6C /* AdobeMobileObjC-dummy.m */,
+				997D557723FE76AE819E89F5D714D015 /* AdobeMobileObjC-prefix.pch */,
+				3A1FCF2A52C8ACF7731448EA59A4C2E4 /* AdobeMobileObjC-umbrella.h */,
+				48CAADC0068BEFFC7414FE36ABD4D43B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AdobeMobileObjC";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B29E4D29D5D1AE830EEC68EBE3786A2F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				52F7BDA907C5EB1EEA9A95D6D7A91B63 /* Products */,
+				D251FB5CFF168186D3FD62CE2740F363 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A1408083AD1D4BC989C1D81010EFF0A5 /* AdobeMobileObjC */ = {
+			isa = PBXGroup;
+			children = (
+				A9D9784711E747AEFE38AF4E8ACC64BC /* Classes */,
+			);
+			path = AdobeMobileObjC;
+			sourceTree = "<group>";
+		};
+		A9D9784711E747AEFE38AF4E8ACC64BC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B55781EA7AB5B00D70A26 /* ADBMobile.h */,
+				DE8B557A1EA7AB5B00D70A26 /* AdobeMobileLibrary.a */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B29E4D29D5D1AE830EEC68EBE3786A2F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF3F352D39AFCA7701B30A1B64DDF6EF /* AdobeMobileObjC */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B5672F81CC352E7E5AAC0A60C11C005B /* Pods-AdobeMobileObjC_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				25DA0D988F24ED9D2EDDD8866CC83802 /* Info.plist */,
+				4BDFEBED67C0391D2EEB60D484A57B26 /* Pods-AdobeMobileObjC_Tests.modulemap */,
+				B9513A8BEC054FF8BFE99775DEDF88BD /* Pods-AdobeMobileObjC_Tests-acknowledgements.markdown */,
+				6607F3CCF855CF943647FBC811A921E8 /* Pods-AdobeMobileObjC_Tests-acknowledgements.plist */,
+				C61E17DCB18AD93ACBEE28353079D521 /* Pods-AdobeMobileObjC_Tests-dummy.m */,
+				CE0123349AF3EEC306F3C4068CC98BA8 /* Pods-AdobeMobileObjC_Tests-frameworks.sh */,
+				D4348FCBEB4F1EA480FDD7BDBD3F247A /* Pods-AdobeMobileObjC_Tests-resources.sh */,
+				31623E1BBDCCC7D7210652C86B71BF6E /* Pods-AdobeMobileObjC_Tests-umbrella.h */,
+				7723891E6B00D58D1403EC714CC01894 /* Pods-AdobeMobileObjC_Tests.debug.xcconfig */,
+				86869548E033C60798297952D0A8CF0F /* Pods-AdobeMobileObjC_Tests.release.xcconfig */,
+			);
+			name = "Pods-AdobeMobileObjC_Tests";
+			path = "Target Support Files/Pods-AdobeMobileObjC_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DED9FDD91EA8DA9000ED360C /* UIKit.framework */,
+				DED9FDD71EA8DA8900ED360C /* SystemConfiguration.framework */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D251FB5CFF168186D3FD62CE2740F363 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CDBE48DACFDFC015789FC1450456842 /* Pods-AdobeMobileObjC_Example */,
+				B5672F81CC352E7E5AAC0A60C11C005B /* Pods-AdobeMobileObjC_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FF3F352D39AFCA7701B30A1B64DDF6EF /* AdobeMobileObjC */ = {
+			isa = PBXGroup;
+			children = (
+				A1408083AD1D4BC989C1D81010EFF0A5 /* AdobeMobileObjC */,
+				5747DF0F841FBB919170459EEFEE332F /* Support Files */,
+			);
+			name = AdobeMobileObjC;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CAE5CBA08AA1AF5757C9824AF8D1716C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB71EF6841C6944469061741DACF4E3F /* Pods-AdobeMobileObjC_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEBA1F2FAB500D38BFCB3032B1A731CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8B557B1EA7AB5B00D70A26 /* ADBMobile.h in Headers */,
+				05721951B81A9A636A63A31A1EF9AB0C /* AdobeMobileObjC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C33A14BDFE02368662FA3E3F92FC05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E273B44A4DC520225F1A8427A4F2D4B9 /* Pods-AdobeMobileObjC_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		42A3D8BEE75BBBC0488A407DCE8A07B8 /* Pods-AdobeMobileObjC_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB36EC54A9D400B755E60D61166D1C6E /* Build configuration list for PBXNativeTarget "Pods-AdobeMobileObjC_Example" */;
+			buildPhases = (
+				20BDD4A5469FF286263CA768CF4B509F /* Sources */,
+				512F91A21CE9B23CD1573A415459EE4B /* Frameworks */,
+				CAE5CBA08AA1AF5757C9824AF8D1716C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0922E417689E05C16F4DC9A5DCA992FA /* PBXTargetDependency */,
+			);
+			name = "Pods-AdobeMobileObjC_Example";
+			productName = "Pods-AdobeMobileObjC_Example";
+			productReference = B2D24C9EC77B31CB2F83FA78D51B60D9 /* Pods_AdobeMobileObjC_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B72E236B28A2281B84FD53C020078EE2 /* Pods-AdobeMobileObjC_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FB5840ADD40E65FA5C19F35707E4879 /* Build configuration list for PBXNativeTarget "Pods-AdobeMobileObjC_Tests" */;
+			buildPhases = (
+				349B0F45D80D0CAB232FCC6A795D49B0 /* Sources */,
+				33247F21345653A7A4EDE84351703E5E /* Frameworks */,
+				E7C33A14BDFE02368662FA3E3F92FC05 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AdobeMobileObjC_Tests";
+			productName = "Pods-AdobeMobileObjC_Tests";
+			productReference = C54AC35E754085340E396DFC5580BED1 /* Pods_AdobeMobileObjC_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C839923CCC7A25DF7AC2BEEE909E4679 /* AdobeMobileObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0234CC7BB9B5D10816BDAF85F9057482 /* Build configuration list for PBXNativeTarget "AdobeMobileObjC" */;
+			buildPhases = (
+				5C1B8CE148840A068807D8DDF552C5A5 /* Sources */,
+				156E1E1BE30211E4F8DAB87E12D2AB18 /* Frameworks */,
+				DEBA1F2FAB500D38BFCB3032B1A731CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdobeMobileObjC;
+			productName = AdobeMobileObjC;
+			productReference = 083180AF1F6214AB7D2A5FFD3F0A1909 /* AdobeMobileObjC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 52F7BDA907C5EB1EEA9A95D6D7A91B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C839923CCC7A25DF7AC2BEEE909E4679 /* AdobeMobileObjC */,
+				42A3D8BEE75BBBC0488A407DCE8A07B8 /* Pods-AdobeMobileObjC_Example */,
+				B72E236B28A2281B84FD53C020078EE2 /* Pods-AdobeMobileObjC_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20BDD4A5469FF286263CA768CF4B509F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A12F7497EB1DDD84C2331A11F6EA7D /* Pods-AdobeMobileObjC_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349B0F45D80D0CAB232FCC6A795D49B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004D455DEE07E2F9037CE6127E283091 /* Pods-AdobeMobileObjC_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1B8CE148840A068807D8DDF552C5A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDBF06B8EF0C4CF21F639A055AD50E0 /* AdobeMobileObjC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0922E417689E05C16F4DC9A5DCA992FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AdobeMobileObjC;
+			target = C839923CCC7A25DF7AC2BEEE909E4679 /* AdobeMobileObjC */;
+			targetProxy = 8CB6EC63AB2C422280F635E42BD1DA36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05B8DAA23CFD30A1FEEE1BEF397BD174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B18BA50D6C43F07401F6BE6C2CA5A39C /* AdobeMobileObjC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AdobeMobileObjC/AdobeMobileObjC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AdobeMobileObjC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AdobeMobileObjC/AdobeMobileObjC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AdobeMobileObjC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4165E90F8C08D28B59C5AFB847861F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86869548E033C60798297952D0A8CF0F /* Pods-AdobeMobileObjC_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AdobeMobileObjC_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdobeMobileObjC_Tests/Pods-AdobeMobileObjC_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdobeMobileObjC_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4BFD5A02A51FBC47B5F46B9E3A9A67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7723891E6B00D58D1403EC714CC01894 /* Pods-AdobeMobileObjC_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AdobeMobileObjC_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdobeMobileObjC_Tests/Pods-AdobeMobileObjC_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdobeMobileObjC_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEE63220F637807E174A76D2FCFCADEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C41E98573151606FD39172F97A2782F2 /* Pods-AdobeMobileObjC_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AdobeMobileObjC_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdobeMobileObjC_Example/Pods-AdobeMobileObjC_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdobeMobileObjC_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0E532DA2FA691D0DBD2252111F01918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B18BA50D6C43F07401F6BE6C2CA5A39C /* AdobeMobileObjC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AdobeMobileObjC/AdobeMobileObjC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AdobeMobileObjC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AdobeMobileObjC/AdobeMobileObjC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AdobeMobileObjC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EEBBB35FE14E09B4FFF9D87E5A420681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B133590642984A45B2CAC9E24663FA /* Pods-AdobeMobileObjC_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AdobeMobileObjC_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AdobeMobileObjC_Example/Pods-AdobeMobileObjC_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AdobeMobileObjC_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0234CC7BB9B5D10816BDAF85F9057482 /* Build configuration list for PBXNativeTarget "AdobeMobileObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E532DA2FA691D0DBD2252111F01918 /* Debug */,
+				05B8DAA23CFD30A1FEEE1BEF397BD174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FB5840ADD40E65FA5C19F35707E4879 /* Build configuration list for PBXNativeTarget "Pods-AdobeMobileObjC_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BFD5A02A51FBC47B5F46B9E3A9A67C /* Debug */,
+				4165E90F8C08D28B59C5AFB847861F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB36EC54A9D400B755E60D61166D1C6E /* Build configuration list for PBXNativeTarget "Pods-AdobeMobileObjC_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE63220F637807E174A76D2FCFCADEF /* Debug */,
+				EEBBB35FE14E09B4FFF9D87E5A420681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

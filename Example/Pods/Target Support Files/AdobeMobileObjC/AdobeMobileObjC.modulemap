@@ -1,0 +1,6 @@
+framework module AdobeMobileObjC {
+  umbrella header "AdobeMobileObjC-umbrella.h"
+
+  export *
+  module * { export * }
+}

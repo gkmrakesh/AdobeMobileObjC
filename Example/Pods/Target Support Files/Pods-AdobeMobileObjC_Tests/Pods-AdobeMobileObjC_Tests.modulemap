@@ -1,0 +1,6 @@
+framework module Pods_AdobeMobileObjC_Tests {
+  umbrella header "Pods-AdobeMobileObjC_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

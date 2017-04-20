@@ -1,0 +1,16 @@
+PODS:
+  - AdobeMobileObjC (0.1.0)
+
+DEPENDENCIES:
+  - AdobeMobileObjC (from `../`)
+
+EXTERNAL SOURCES:
+  AdobeMobileObjC:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AdobeMobileObjC: 58fe7e2df79d31a19a000005ec8021046dc1c8b7
+
+PODFILE CHECKSUM: a781cbd1ec011e3b1dfbca68dd2856e32c42910b
+
+COCOAPODS: 1.2.0
